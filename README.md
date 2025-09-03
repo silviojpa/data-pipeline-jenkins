@@ -62,7 +62,7 @@ Se seu Jenkins está rodando localmente (sem um endereço público), use o ngrok
 
 - Autentique o ngrok com seu token pessoal: `ngrok config add-authtoken <SEU_TOKEN>`.
 
-- Inicie o túnel para a porta do Jenkins: `ngrok http 8082`.
+- Inicie o túnel para a porta do Jenkins: `ngrok http 8082` ou `http + porta que esta mapeada o jenkins`.
 
 - Copie a URL `https://...ngrok.io` que o ngrok exibir.
 
